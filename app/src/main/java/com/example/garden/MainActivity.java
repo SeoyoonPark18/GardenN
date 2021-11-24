@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     private HomeFragment homeFragment;
     private StoreFragment storeFragment;
     private FeedFragment feedFragment;
+    private FragmentUploaded fragmentUploaded;
     private GPSFragment gpsFragment;
     private MyPageFragment myPageFragment;
     private ActionBarDrawerToggle mDrawerToggle;
@@ -40,11 +41,14 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     private Context context = this;
     private View navheader;
     private FrameLayout contentFL;
+    Boolean isUploaded = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        Intent intent = getIntent();
+        isUploaded = intent.getBooleanExtra("isUploaded", false);
 
         bottomNavigationView = findViewById(R.id.bottomNavi);
         bottomNavigationView.setOnItemSelectedListener(new NavigationBarView.OnItemSelectedListener() {
@@ -75,7 +79,15 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         feedFragment = new FeedFragment();
         gpsFragment = new GPSFragment();
         myPageFragment = new MyPageFragment();
-        setFrag(0);
+        fragmentUploaded = new FragmentUploaded();
+
+        if (isUploaded == true) {
+            setFrag(2);
+            bottomNavigationView.setSelectedItemId(R.id.action_feed);
+        }
+        else {
+            setFrag(0);
+        }
 
 
         // 로그인 된 상태가 아니라면
@@ -153,7 +165,12 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 ft.commit();
                 break;
             case 2:
-                ft.replace(R.id.main_frame, feedFragment);
+                if (isUploaded == true) {
+                    ft.replace(R.id.main_frame, fragmentUploaded); // 업로드된 프레그먼
+                }
+                else {
+                    ft.replace(R.id.main_frame, feedFragment);
+                }
                 ft.commit();
                 break;
             case 3:
