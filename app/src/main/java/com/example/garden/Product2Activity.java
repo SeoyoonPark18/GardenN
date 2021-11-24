@@ -38,7 +38,7 @@ public class Product2Activity extends FragmentActivity {
         tL.addTab(tL.newTab().setText("후기 (20)"));
         tL.addTab(tL.newTab().setText("문의"));
 
-        ProductAdapter adapter = new ProductAdapter(getSupportFragmentManager(),
+        ProductAdapter2 adapter = new ProductAdapter2(getSupportFragmentManager(),
                 tL.getTabCount());
 
         vP.setAdapter(adapter);
