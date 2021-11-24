@@ -33,6 +33,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".SignUpActivity" />
+        <activity android:name=".PhotogridView" />
+        <activity android:name=".NewFeedFrag" />
+        <activity android:name=".PhotoUpload" />
         <activity android:name=".LoginActivity" />
         <activity android:name=".SimpleLoginActivity" />
         <activity android:name=".SurveyActivity1" android:label="설문조사1"/>
