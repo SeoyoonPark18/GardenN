@@ -32,7 +32,6 @@ public class GPSFragment extends Fragment {
 
         //127.028002, 37.4945470
         MapPoint mapPoint = MapPoint.mapPointWithGeoCoord(37.4945470,127.028002);
-        MapPoint mapPoint2 = MapPoint.mapPointWithGeoCoord(39.4945470,127.028002);
 
         //지도의 중심점을 특정 위치로 설정 확대 레벨 설정 (값이 작을수록 더 확대된다)
         mapView.setMapCenterPoint(mapPoint,true);
@@ -45,13 +44,7 @@ public class GPSFragment extends Fragment {
         marker.setMapPoint(mapPoint);
         marker.setMarkerType(MapPOIItem.MarkerType.BluePin); // 기본으로 제공하는 BluePin 마커 모양.
         marker.setSelectedMarkerType(MapPOIItem.MarkerType.RedPin); // 마커를 클릭했을때, 기본으로 제공하는 RedPin 마커 모양.
-        mapView.addPOIItem(marker);
 
-        marker.setItemName("Default Marker");
-        //marker.setTag(0);
-        marker.setMapPoint(mapPoint2);
-        marker.setMarkerType(MapPOIItem.MarkerType.BluePin); // 기본으로 제공하는 BluePin 마커 모양.
-        marker.setSelectedMarkerType(MapPOIItem.MarkerType.RedPin); // 마커를 클릭했을때, 기본으로 제공하는 RedPin 마커 모양.
         mapView.addPOIItem(marker);
 
         return view;
