@@ -2,6 +2,7 @@ package com.example.garden;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -25,6 +26,7 @@ public class Product1Activity extends FragmentActivity {
         setContentView(R.layout.product1);
 
         ImageButton topShoppingCart = findViewById(R.id.topShoppingCart);
+        topShoppingCart.setColorFilter(Color.parseColor("#000000"));
         topShoppingCart.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

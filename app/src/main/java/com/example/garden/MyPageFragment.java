@@ -1,9 +1,12 @@
 package com.example.garden;
 
+import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageButton;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -20,6 +23,15 @@ public class MyPageFragment extends Fragment{
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         view=inflater.inflate(R.layout.mypage_frag,container, false);
 
+        ImageButton ShoppingCart = view.findViewById(R.id.btnShoppingCart);
+        ShoppingCart.setColorFilter(Color.parseColor("#000000"));
+        ShoppingCart.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getActivity(), ShoppingCartActivity.class);
+                startActivity(intent);
+            }
+        });
 
         TabLayout tL;
         ViewPager vP;
