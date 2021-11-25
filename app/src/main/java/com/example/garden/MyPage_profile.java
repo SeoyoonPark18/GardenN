@@ -6,6 +6,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -34,6 +35,15 @@ public class MyPage_profile extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle saveInstanceState){
         ViewGroup rootView = (ViewGroup) inflater.inflate(
                 R.layout.mypage_profile,container,false);
+
+        ImageView Myfeed= (ImageView) rootView.findViewById(R.id.btnMyFeed);
+        Myfeed.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getActivity(), My_Page_feed.class);
+                startActivity(intent);
+            }
+        });
 
 
         TextView txtview = (TextView) rootView.findViewById(R.id.Logout_Text);
