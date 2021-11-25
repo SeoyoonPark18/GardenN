@@ -64,7 +64,7 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="529dp"
-                android:src="@drawable/feed_4_image" />
+                android:src="@drawable/feed_image4" />
 
             <ImageView
                 android:layout_width="wrap_content"
