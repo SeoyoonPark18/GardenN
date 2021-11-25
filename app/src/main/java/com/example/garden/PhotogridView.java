@@ -1,6 +1,7 @@
 package com.example.garden;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.GridView;
@@ -20,6 +21,15 @@ public class PhotogridView extends AppCompatActivity {
         MyGridAdapter myGridAdapter = new MyGridAdapter(this);
 
         gridView.setAdapter(myGridAdapter);
+
+        ImageButton btnBack = findViewById(R.id.btnBack);
+        btnBack.setColorFilter(Color.parseColor("#000000"));
+        btnBack.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                finish();
+            }
+        });
 
         //버튼 클릭시 액티비티 전환
         ImageButton next_btn = (ImageButton) findViewById(R.id.btnNext);
