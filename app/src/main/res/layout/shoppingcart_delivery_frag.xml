@@ -9,7 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:padding="20dp">
+        android:padding="15dp">
 
         <ImageButton
             android:layout_width="30dp"
@@ -23,7 +23,7 @@
             android:layout_height="match_parent"
             android:text="전체 1개"
             android:textColor="@color/black"
-            android:textSize="20dp"
+            android:textSize="18dp"
             android:paddingLeft="20dp"
             android:layout_gravity="center"/>
 
@@ -43,7 +43,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:padding="20dp">
+                android:padding="15dp">
 
                 <ImageButton
                     android:layout_width="30dp"
@@ -57,7 +57,7 @@
                     android:layout_height="match_parent"
                     android:text="선택"
                     android:textColor="@color/black"
-                    android:textSize="20dp"
+                    android:textSize="18dp"
                     android:paddingLeft="20dp"
                     android:layout_gravity="center"/>
 
@@ -72,15 +72,16 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="22dp"
+                android:textSize="15dp"
                 android:padding="10dp"
                 android:textColor="@color/black"
                 android:textStyle="bold"
                 android:text="장바구니 합계"/>
 
             <View
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
+                android:layout_width="390dp"
+                android:layout_gravity="center"
+                android:layout_height="1.5dp"
                 android:padding="20dp"
                 android:background="@color/gray"/>
 
@@ -94,7 +95,7 @@
                     android:layout_height="match_parent"
                     android:text="선택 상품 개수"
                     android:textColor="@color/black"
-                    android:textSize="20dp"
+                    android:textSize="15dp"
                     android:layout_weight="1"
                     android:padding="10dp"/>
 
@@ -103,14 +104,15 @@
                     android:layout_height="match_parent"
                     android:text="1개"
                     android:textColor="@color/black"
-                    android:textSize="20dp"
+                    android:textSize="15dp"
                     android:padding="10dp"/>
 
             </LinearLayout>
 
             <View
-                android:layout_width="match_parent"
-                android:layout_height="0.5dp"
+                android:layout_width="390dp"
+                android:layout_gravity="center"
+                android:layout_height="1dp"
                 android:padding="20dp"
                 android:background="@color/gray"/>
 
@@ -124,7 +126,7 @@
                     android:layout_height="match_parent"
                     android:text="상품 금액"
                     android:textColor="@color/black"
-                    android:textSize="20dp"
+                    android:textSize="15dp"
                     android:layout_weight="1"
                     android:padding="10dp"/>
 
@@ -133,14 +135,15 @@
                     android:layout_height="match_parent"
                     android:text="43,900원"
                     android:textColor="@color/black"
-                    android:textSize="20dp"
+                    android:textSize="15dp"
                     android:padding="10dp"/>
 
             </LinearLayout>
 
             <View
-                android:layout_width="match_parent"
-                android:layout_height="0.5dp"
+                android:layout_width="390dp"
+                android:layout_gravity="center"
+                android:layout_height="1dp"
                 android:padding="20dp"
                 android:background="@color/gray"/>
 
@@ -154,7 +157,7 @@
                     android:layout_height="match_parent"
                     android:text="할인 금액"
                     android:textColor="@color/black"
-                    android:textSize="20dp"
+                    android:textSize="15dp"
                     android:layout_weight="1"
                     android:padding="10dp"/>
 
@@ -163,14 +166,15 @@
                     android:layout_height="match_parent"
                     android:text="0원"
                     android:textColor="@color/black"
-                    android:textSize="20dp"
+                    android:textSize="15dp"
                     android:padding="10dp"/>
 
             </LinearLayout>
 
             <View
-                android:layout_width="match_parent"
-                android:layout_height="0.5dp"
+                android:layout_width="390dp"
+                android:layout_gravity="center"
+                android:layout_height="1dp"
                 android:padding="20dp"
                 android:background="@color/gray"/>
 
@@ -184,7 +188,7 @@
                     android:layout_height="match_parent"
                     android:text="결제 금액"
                     android:textColor="@color/black"
-                    android:textSize="20dp"
+                    android:textSize="15dp"
                     android:layout_weight="1"
                     android:padding="10dp"/>
 
@@ -194,7 +198,7 @@
                     android:text="43,900원"
                     android:textStyle="bold"
                     android:textColor="@color/black"
-                    android:textSize="20dp"
+                    android:textSize="15dp"
                     android:padding="10dp"/>
 
             </LinearLayout>

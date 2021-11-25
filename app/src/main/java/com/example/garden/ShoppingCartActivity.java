@@ -1,6 +1,7 @@
 package com.example.garden;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
@@ -16,6 +17,14 @@ public class ShoppingCartActivity extends FragmentActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_shopping_cart);
 
+        ImageButton ToMain = findViewById(R.id.btnToMain);
+        ToMain.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                startActivity(intent);
+            }
+        });
         TabLayout tL;
         ViewPager vP;
 

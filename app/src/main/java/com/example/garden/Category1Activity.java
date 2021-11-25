@@ -23,6 +23,15 @@ public class Category1Activity extends Activity {
             }
         });
 
+        ImageButton ShoppingCart = findViewById(R.id.btnShoppingCart);
+        ShoppingCart.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), ShoppingCartActivity.class);
+                startActivity(intent);
+            }
+        });
+
         ImageButton btnBack = findViewById(R.id.btnBack);
         btnBack.setOnClickListener(new View.OnClickListener() {
             @Override
