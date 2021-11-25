@@ -14,7 +14,7 @@
         android:background="@drawable/signbtn_bg2"
         android:freezesText="false"
         android:gravity="center"
-        android:text="Sign Up"
+        android:text="회원 가입"
         android:textAllCaps="false"
         android:textColor="#FFFFFF"
         android:textSize="24sp"
@@ -31,7 +31,7 @@
         android:layout_marginStart="12dp"
         android:layout_marginTop="20dp"
         android:clickable="true"
-        android:text="Sign In"
+        android:text="로그인 하기"
         android:textColor="#F44336"
         app:layout_constraintStart_toEndOf="@+id/textView6"
         app:layout_constraintTop_toBottomOf="@+id/btn_sendEmail" />
@@ -42,7 +42,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="80dp"
         android:layout_marginTop="20dp"
-        android:text="Already have an account?"
+        android:text="이미 계정이 있으신가요?"
         android:textColor="#4A4A4A"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_sendEmail" />
@@ -68,7 +68,7 @@
         android:id="@+id/edit_email"
         android:layout_width="346dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="504dp"
+        android:layout_marginBottom="496dp"
         android:background="@drawable/inputtext_bg"
         android:ems="10"
         android:hint="Email Address"
@@ -78,7 +78,7 @@
         android:textSize="14dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText

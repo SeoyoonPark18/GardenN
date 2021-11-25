@@ -14,12 +14,16 @@ public class SimpleLoginActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.simple_login);
         findViewById(R.id.email_login_text).setOnClickListener(onClickListener);
+        findViewById(R.id.simple_sign_in).setOnClickListener(onClickListener);
     }
 
     View.OnClickListener onClickListener= (v)-> {
         switch (v.getId()) {
             case R.id.email_login_text:
                 startActivity(LoginActivity.class);
+                break;
+            case R.id.simple_sign_in:
+                startActivity(SignUpActivity.class);
                 break;
 
         }
