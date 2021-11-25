@@ -19,7 +19,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="220dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="5dp"
                 android:layout_marginLeft="30dp"
                 android:layout_marginRight="30dp"
 
@@ -29,7 +29,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="300dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="20dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
                 android:src="@drawable/img_order" />
@@ -38,7 +37,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="100dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="5dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
                 android:src="@drawable/img_pickup" />
@@ -86,27 +85,33 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="14dp"
+                android:textSize="16dp"
                 android:text="공지사항"
-                android:layout_marginBottom="10dp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="20dp"
                 android:layout_marginLeft="20dp"
                 android:textColor="@color/black"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="14dp"
+                android:textSize="16dp"
                 android:text="나의 문의 내역"
-                android:layout_marginBottom="10dp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="20dp"
                 android:layout_marginLeft="20dp"
                 android:textColor="@color/black"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="14dp"
+                android:textSize="16dp"
                 android:text="FAQ"
-                android:layout_marginBottom="10dp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="20dp"
                 android:layout_marginLeft="20dp"
                 android:textColor="@color/black"/>
 

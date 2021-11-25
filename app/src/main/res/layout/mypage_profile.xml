@@ -19,7 +19,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="220dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="5dp"
                 android:layout_marginLeft="30dp"
                 android:layout_marginRight="30dp"
 
@@ -29,7 +29,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="500dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="20dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
                 android:src="@drawable/img_myfeed" />
@@ -38,7 +37,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="300dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="20dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
                 android:src="@drawable/img_scrapbook" />
@@ -47,7 +45,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="400dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="20dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
                 android:src="@drawable/img_myqa" />
@@ -57,7 +54,7 @@
                 android:layout_height="wrap_content"
                 android:textSize="16dp"
                 android:text="공지사항"
-                android:layout_marginTop="25dp"
+                android:layout_marginTop="10dp"
                 android:layout_marginBottom="25dp"
                 android:layout_marginLeft="20dp"
                 android:textColor="@color/black"/>
@@ -67,7 +64,7 @@
                 android:layout_height="wrap_content"
                 android:textSize="16dp"
                 android:text="고객센터"
-                android:layout_marginTop="25dp"
+                android:layout_marginTop="5dp"
                 android:layout_marginBottom="25dp"
                 android:layout_marginLeft="20dp"
                 android:textColor="@color/black"/>
@@ -78,7 +75,7 @@
                 android:layout_height="wrap_content"
                 android:textSize="16dp"
                 android:text="로그아웃"
-                android:layout_marginTop="25dp"
+                android:layout_marginTop="5dp"
                 android:layout_marginBottom="25dp"
                 android:layout_marginLeft="20dp"
                 android:textColor="@color/black"/>
