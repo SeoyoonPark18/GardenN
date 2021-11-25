@@ -56,7 +56,7 @@
                     android:layout_height="180dp"
                     android:padding="0sp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/liv1"
+                    android:src="@drawable/nliv1"
                     tools:ignore="SpeakableTextPresentCheck" />
 
                 <Button
@@ -112,7 +112,7 @@
                     android:layout_height="180dp"
                     android:padding="0sp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/liv2"
+                    android:src="@drawable/nliv2"
                     tools:ignore="SpeakableTextPresentCheck" />
 
                 <Button
@@ -175,7 +175,7 @@
                     android:layout_height="180dp"
                     android:padding="0sp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/liv3"
+                    android:src="@drawable/nliv3"
                     tools:ignore="SpeakableTextPresentCheck" />
 
                 <Button
@@ -231,7 +231,7 @@
                     android:layout_height="180dp"
                     android:padding="0sp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/liv4"
+                    android:src="@drawable/nliv4"
                     tools:ignore="SpeakableTextPresentCheck" />
 
                 <Button
@@ -294,7 +294,7 @@
                     android:layout_height="180dp"
                     android:padding="0sp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/liv5"
+                    android:src="@drawable/nliv5"
                     tools:ignore="SpeakableTextPresentCheck" />
 
                 <Button
@@ -350,7 +350,7 @@
                     android:layout_height="180dp"
                     android:padding="0sp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/liv6"
+                    android:src="@drawable/nliv6"
                     tools:ignore="SpeakableTextPresentCheck" />
 
                 <Button
