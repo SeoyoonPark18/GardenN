@@ -27,8 +27,6 @@ public class HomeFragment extends Fragment {
     private ImageButton btnSearch;
     private ImageButton btnShoppingCart;
 
-
-
     private ImageButton ibPost1;
     private Button btnPost1;
 
@@ -48,6 +46,7 @@ public class HomeFragment extends Fragment {
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
         //setHasOptionsMenu(true);
+
 
         fab = view.findViewById(R.id.btnFab);
         fab.setOnClickListener(new View.OnClickListener() {
