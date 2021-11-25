@@ -55,6 +55,13 @@
         <entry key="..\:/Users/keon/AndroidStudioProjects/Garden/app/src/main/res/layout/mypage_profile.xml" value="0.176" />
         <entry key="..\:/Users/keon/AndroidStudioProjects/Garden/app/src/main/res/layout/navi_header.xml" value="0.1" />
         <entry key="..\:/Users/keon/AndroidStudioProjects/Garden/app/src/main/res/menu/navi_menu.xml" value="0.1" />
+<<<<<<< HEAD
+        <entry key="..\:/Users/keon/AndroidStudioProjects/GardenNew/app/src/main/res/layout/activity_login.xml" value="0.22291666666666668" />
+        <entry key="..\:/Users/keon/AndroidStudioProjects/GardenNew/app/src/main/res/layout/activity_main.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/keon/AndroidStudioProjects/GardenNew/app/src/main/res/layout/activity_sign_up.xml" value="0.264" />
+        <entry key="..\:/Users/keon/AndroidStudioProjects/GardenNew/app/src/main/res/layout/mypage_profile.xml" value="0.25364583333333335" />
+=======
+>>>>>>> baf4a3ac4752d2f0f111bedfe8d291ac56a1ddc5
         <entry key="..\:/Users/keon/AndroidStudioProjects/Garden_See/app/src/main/res/drawable-v24/signbtn_bg.xml" value="0.22719298245614036" />
         <entry key="..\:/Users/keon/AndroidStudioProjects/Garden_See/app/src/main/res/drawable/edt_border.xml" value="0.18645833333333334" />
         <entry key="..\:/Users/keon/AndroidStudioProjects/Garden_See/app/src/main/res/drawable/signbtn_bg2.xml" value="0.22719298245614036" />
@@ -98,6 +105,7 @@
         <entry key="..\:/Users/tjdbs/GardenEmpty/app/src/main/res/layout/gps_frag.xml" value="0.30092592592592593" />
         <entry key="..\:/Users/tjdbs/GardenEmpty/app/src/main/res/layout/home_frag.xml" value="0.30092592592592593" />
         <entry key="..\:/Users/tjdbs/GardenEmpty/app/src/main/res/layout/home_post.xml" value="0.30092592592592593" />
+        <entry key="..\:/Users/tjdbs/GardenEmpty/app/src/main/res/layout/layout_bottom_sheet.xml" value="0.30092592592592593" />
         <entry key="..\:/Users/tjdbs/GardenEmpty/app/src/main/res/layout/living_room.xml" value="0.30092592592592593" />
         <entry key="..\:/Users/tjdbs/GardenEmpty/app/src/main/res/layout/mypage_frag.xml" value="0.30092592592592593" />
         <entry key="..\:/Users/tjdbs/GardenEmpty/app/src/main/res/layout/mypage_profile.xml" value="0.30092592592592593" />
