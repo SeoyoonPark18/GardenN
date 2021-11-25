@@ -107,7 +107,7 @@
                    android:scaleType="fitCenter"
                    android:background="@android:color/transparent"
                    android:src="@drawable/temp_category1"
-                   android:layout_marginRight="5dp"/>
+                   android:layout_marginRight="2dp"/>
                <ImageButton
                    android:layout_width="185dp"
                    android:layout_height="260dp"
