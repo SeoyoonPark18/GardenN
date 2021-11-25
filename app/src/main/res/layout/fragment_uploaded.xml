@@ -55,7 +55,7 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="529dp"
-                android:src="@drawable/feedthirdimage" />
+                android:src="@drawable/newfeedimage_first" />
 
             <ImageView
                 android:layout_width="wrap_content"
@@ -66,6 +66,21 @@
                 android:layout_width="wrap_content"
                 android:layout_height="529dp"
                 android:src="@drawable/feedsecondimage" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="529dp"
+                android:src="@drawable/feed_4_image" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="529dp"
+                android:src="@drawable/feed_5_image" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="529dp"
+                android:src="@drawable/feed_6_image" />
 
         </LinearLayout>
 

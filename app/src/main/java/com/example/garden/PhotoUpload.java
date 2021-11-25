@@ -1,6 +1,7 @@
 package com.example.garden;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
@@ -14,6 +15,16 @@ public class PhotoUpload extends FragmentActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.photoupload);
+
+        //버튼 클릭시 액티비티 전환
+        ImageButton back_btn = (ImageButton) findViewById(R.id.btnBack2);
+        back_btn.setColorFilter(Color.parseColor("#000000"));
+        back_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                finish();
+            }
+        });
 
         //버튼 클릭시 액티비티 전환
         ImageButton upload_btn = (ImageButton) findViewById(R.id.btnUpload);
