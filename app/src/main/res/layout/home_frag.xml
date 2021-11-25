@@ -69,7 +69,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:paddingLeft="30dp"
+                android:paddingLeft="15dp"
                 android:paddingVertical="15dp"
                 android:text="공간별 플랜테리어 보기"
                 android:textColor="@color/black"
@@ -236,17 +236,18 @@
             </LinearLayout>
 
             <ImageView
-                android:layout_width="360dp"
-                android:layout_height="85dp"
-                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:scaleType="centerCrop"
+                android:padding="15dp"
                 android:layout_marginVertical="15dp"
-                android:src="@drawable/ncommecial"/>
+                android:src="@drawable/home_commercial"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingVertical="15dp"
-                android:paddingLeft="30dp"
+                android:paddingLeft="15dp"
                 android:text="다양한 정원들을 둘러보세요."
                 android:textColor="@color/black"
                 android:textSize="18dp"
@@ -270,8 +271,8 @@
                         android:layout_width="185dp"
                         android:layout_height="180dp"
                         android:padding="0sp"
-                        android:scaleType="fitCenter"
-                        android:src="@drawable/nnhome1" />
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/home_feed1" />
                     <Button
                         android:id="@+id/btnPost1"
                         android:layout_width="wrap_content"
@@ -325,7 +326,7 @@
                         android:layout_height="180dp"
                         android:padding="0sp"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/nnhome2" />
+                        android:src="@drawable/home_feed2" />
                     <Button
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -386,7 +387,7 @@
                         android:layout_height="180dp"
                         android:padding="0sp"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/nnhome3" />
+                        android:src="@drawable/home_feed3" />
                     <Button
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -439,7 +440,7 @@
                         android:layout_height="180dp"
                         android:padding="0sp"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/nnhome4" />
+                        android:src="@drawable/home_feed4" />
                     <Button
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"

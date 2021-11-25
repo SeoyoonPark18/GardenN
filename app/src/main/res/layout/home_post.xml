@@ -36,7 +36,7 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="400dp"
-                android:src="@drawable/ncon1"
+                android:src="@drawable/home_content"
                 android:scaleType="centerCrop"/>
             <TextView
                 android:layout_width="match_parent"
@@ -86,7 +86,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="400dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/ncon2"/>
+                    android:src="@drawable/home_content_1"/>
                 <ImageButton
                     android:id="@+id/btnToStore"
                     android:layout_width="35dp"
@@ -161,7 +161,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="400dp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/ncon3"/>
+                android:src="@drawable/home_content_2"/>
         </LinearLayout>
 
 
