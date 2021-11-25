@@ -1,6 +1,7 @@
 package com.example.garden;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -73,6 +74,20 @@ public class StoreFragment extends Fragment {
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
         //setHasOptionsMenu(true);
+
+        ImageButton Search = view.findViewById(R.id.btnSearch);
+        Search.setColorFilter(Color.parseColor("#000000"));
+
+        ImageButton ShoppingCart = view.findViewById(R.id.btnShoppingCart);
+        ShoppingCart.setColorFilter(Color.parseColor("#000000"));
+        ShoppingCart.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getActivity(), ShoppingCartActivity.class);
+                startActivity(intent);
+            }
+        });
+
 
         btnCategory1= view.findViewById(R.id.category3);
 
