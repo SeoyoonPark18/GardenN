@@ -247,7 +247,7 @@
                 android:layout_height="wrap_content"
                 android:paddingVertical="15dp"
                 android:paddingLeft="30dp"
-                android:text="다양한 정원들을 둘러보세요."
+                android:text="인기 있는 정원들을 둘러보세요."
                 android:textColor="@color/black"
                 android:textSize="18dp"
                 android:textStyle="bold" />

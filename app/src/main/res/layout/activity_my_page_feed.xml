@@ -21,16 +21,6 @@
             android:src="@drawable/ic_arrow_back"
             tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
-        <TextView
-            android:layout_width="318dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_weight="1"
-            android:text="피드"
-            android:textAlignment="center"
-            android:textColor="@color/black"
-            android:textSize="15dp" />
-
     </LinearLayout>
 
     <LinearLayout
