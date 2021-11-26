@@ -37,7 +37,7 @@ public class Product2Activity extends FragmentActivity {
         vP = (ViewPager) findViewById(R.id.my_view);
 
         tL.addTab(tL.newTab().setText("상품 정보"));
-        tL.addTab(tL.newTab().setText("후기 (20)"));
+        tL.addTab(tL.newTab().setText("후기 (70)"));
         tL.addTab(tL.newTab().setText("문의"));
 
         ProductAdapter2 adapter = new ProductAdapter2(getSupportFragmentManager(),
